@@ -55,7 +55,7 @@ The provisioned infrastructure consists of the following components:
 ```mermaid
 graph TD
     subgraph "Azure Cloud"
-        subgraph "Resource Group (ACC-23377-Azure-NPRD-AICAP-RG01)"
+        subgraph "Resource Group (Azure-NPRD-RG01)"
             subgraph "Virtual Network (10.0.0.0/16)"
                 subgraph "AzureFirewallSubnet (10.0.1.0/24)"
                     FW[fa:fa-firewall Azure Firewall];
