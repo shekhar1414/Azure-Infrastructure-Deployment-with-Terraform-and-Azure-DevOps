@@ -1,6 +1,6 @@
 variable "prefix" {
   description = "Prefix for all resources"
-  default     = "ACC-23377-Azure-NPRD-AICAP"
+  default     = "Azure-NPRD"
 }
 
 variable "location" {
